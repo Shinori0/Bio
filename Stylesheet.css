@@ -1,0 +1,9 @@
+#div1{
+  background-color: blue;
+  border: 5px ridge black;
+  width: 200px;
+  padding: 20px;
+}
+body {
+  background-color: #2a2f6e;
+}
