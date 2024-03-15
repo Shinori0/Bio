@@ -1,10 +1,9 @@
-#div1 {
-  background-image: url("https://i.postimg.cc/FsFg77g6/IMG-3921.jpg");
-  background-repeat: repeat-x;
-  background-color: white;
-  border: 16px ridge black;
-  padding: 20px;
-}
 body {
+  background-color: #2a2f6e;
+}
+.block1 {
+  border-radius: 20px;
+  margin: 40px;
+  padding: 20px;
   background-color: #2a2f6e;
 }
