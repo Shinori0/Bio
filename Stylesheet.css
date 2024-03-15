@@ -1,5 +1,6 @@
 body {
   background-image: radial-gradient(#1A2048, #1B1C21);
+  background-size: cover;
 }
 .block1 {
   border-radius: 20px;
