@@ -7,3 +7,10 @@ body {
   padding: 20px;
   background-color: #2a2f6e;
 }
+.button{
+  border: none;
+  padding: 8px 20px;
+  margin: 20px;
+  display: inline-block;
+  font-size: 18px;
+}
