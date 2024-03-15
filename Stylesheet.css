@@ -32,10 +32,12 @@ body {
 .button:hover {
   animation-name: hoverbutton;
   animation-duration: 0.8s;
+  position:relative;
+  transform: scale(1.1);
 }
-@keyframe hoverbutton {
-  0% {}
-  25% {transform:scale(1.2) rotate(18deg); top: 2px;}
-  77% {transform: rotate(-8deg); top:0px;}
-  100% {transform: rotate(-10deg);}
+@keyframes hoverbutton {
+  0% {transform: scale(1.1)}
+  25% {transform:scale(1.1) rotate(8deg);top:-5px;}
+  60% {transform: scale(1.1) rotate(-4deg); top:0px;}
+  100% {transform: scale(1.1);}
 }
