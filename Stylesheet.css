@@ -18,6 +18,7 @@ body {
   margin: 40px;
   padding: 20px;
   background-color: #DFDBD5;
+  filter: drop-shadow(20px 15px black);
 }
 .button{
   border: 2px solid white;
@@ -27,4 +28,14 @@ body {
   font-size: 18px;
   background-color: #C1BAB1;
   text-align: center;
+}
+.button:hover {
+  animation-name: hoverbutton;
+  animation-duration: 0.8s;
+}
+@keyframe hoverbutton {
+  0% {}
+  25% {transform:scale(1.2) rotate(18deg); top: 2px;}
+  77% {transform: rotate(-8deg); top:0px;}
+  100% {transform: rotate(-10deg);}
 }
