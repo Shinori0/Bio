@@ -10,8 +10,7 @@
   font-family: remingtonedType;
 }
 body {
-  background-image: radial-gradient(#1A2048, #1B1C21);
-  background-size: cover;
+  background-image: linear-gradient(#1A2048, #1B1C21);
 }
 .block1 {
   border-radius: 20px;
