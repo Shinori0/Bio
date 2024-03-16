@@ -1,10 +1,10 @@
 @font-face {
   font-family: remingtonedType;
-  src: url(Remingtoned Type.ttf);
+  src: url(Remingtoned Type.ttf) format('ttf');
 }
 @font-face {
   font-family: redwater;
-  src: url(RedwaterBanker_PERSONAL_USE.otf);
+  src: url(RedwaterBanker_PERSONAL_USE.otf) format('otf');
 }
   * {
   font-family: remingtonedType;
