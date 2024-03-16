@@ -19,7 +19,7 @@ body {
   background-color: #DFDBD5;
   filter: drop-shadow(20px 15px black);
 }
-.button{
+.button1 {
   border: 2px solid white;
   padding: 10px 27px;
   margin: 20px;
@@ -27,8 +27,9 @@ body {
   font-size: 18px;
   background-color: #C1BAB1;
   text-align: center;
+  color: black;
 }
-.button:hover {
+.button1:hover {
   animation-name: hoverbutton;
   animation-duration: 0.8s;
   position:relative;
