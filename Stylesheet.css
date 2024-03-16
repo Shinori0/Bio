@@ -6,8 +6,13 @@
   font-family: 'redwater';
   src: url(RedwaterBanker_PERSONAL_USE.otf) format('otf');
 }
+@font-face {
+  font-family: 'tox';
+  src: url(Tox Typewriter.ttf);
+}
+
 * {
-  font-family: remingtonedType;
+  font-family: tox;
 }
 body {
   background-color: black;
