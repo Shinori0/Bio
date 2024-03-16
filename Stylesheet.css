@@ -34,13 +34,16 @@ body {
 }
 .button1:hover {
   animation-name: hoverbutton;
-  animation-duration: 0.8s;
+  animation-duration: 0.4s;
   position:relative;
-  transform: scale(1.1);
+  transform: scale(1.2);
+  transition-duration: 0.2s;
+  padding: 10px 40px;
+  margin: 20px 15px;
 }
 @keyframes hoverbutton {
-  0% {transform: scale(1)}
-  25% {transform:scale(1.1); top:-5px;}
-  78% {transform: scale(1.1); top:0px;}
-  100% {transform: scale(1.1);}
+  0% {transform: scale(1.2);}
+  34% {transform: scale(1.2); top:3px; padding: 10px 45px; margin: 20px 10px;}
+  83% {transform: scale(1.2);}
+  100% {transform: scale(1.2);}
 }
