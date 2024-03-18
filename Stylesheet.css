@@ -7,80 +7,80 @@
 	src: url(PUNKBABE TRIAL.ttf);
 }
 * {
-  font-family: punkbabe;
+	font-family: punkbabe;
 }
 body {
-  background-color: black;
-  opacity: 1;
-  background-image:  linear-gradient(#9397B7 2.3px, transparent 2.3px), linear-gradient(to right, #9397B7 2.3px, #242B64 2.3px);
-  background-size: 60px 60px;
+	background-color: black;
+	opacity: 1;
+	background-image:  linear-gradient(#9397B7 2.3px, transparent 2.3px), linear-gradient(to right, #9397B7 2.3px, #242B64 2.3px);
+	background-size: 60px 60px;
 }
 .block1 {
-  border-radius: 0px 20px 20px 20px;
-  margin: 0px 40px 0px 40px;
-  padding: 25px;
-  background-color: #DFDBD5;
-  filter: drop-shadow(20px 15px black);
+	border-radius: 0px 20px 20px 20px;
+	margin: 0px 40px 0px 40px;
+	padding: 25px;
+	background-color: #DFDBD5;
+	filter: drop-shadow(20px 15px black);
 }
 .button1 {
-  border: 2px solid white;
-  padding: 10px 32px;
-  margin: 20px;
-  display: inline-block;
-  font-size: 18px;
-  background-color: #C1BAB1;
-  text-align: center;
-  color: black;
+	border: 2px solid white;
+	padding: 10px 32px;
+	margin: 20px;
+	display: inline-block;
+	font-size: 18px;
+	background-color: #C1BAB1;
+	text-align: center;
+	color: black;
 }
 .button1:hover {
-  animation-name: hoverbutton;
-  animation-duration: 0.4s;
-  position:relative;
-  transform: scale(1.2);
-  transition-duration: 0.2s;
-  padding: 10px 40px;
-  margin: 20px 15px;
+  	animation-name: hoverbutton;
+  	animation-duration: 0.4s;
+ 	position:relative;
+ 	transform: scale(1.2);
+  	transition-duration: 0.2s;
+  	padding: 10px 40px;
+	margin: 20px 15px;
 }
 @keyframes hoverbutton {
-  0% {transform: scale(1.2);}
-  34% {transform: scale(1.2); top:3px; padding: 10px 45px; margin: 20px 10px;}
-  83% {transform: scale(1.2);}
-  100% {transform: scale(1.2);}
+	0% {transform: scale(1.2);}
+	34% {transform: scale(1.2); top:3px; padding: 10px 45px; margin: 20px 10px;}
+	83% {transform: scale(1.2);}
+	100% {transform: scale(1.2);}
 }
 .tad {
-  padding: 20px 40px;
+	padding: 20px 40px;
 }
 
 .sub {
-  border-radius: 20px 20px 0px 0px;
-  font-size: 24px;
-  width: 15%;
-  height:13px;
-  margin: 40px 0px 0px 0px;
-  text-align: center;
-  vertical-align: middle;
-  display: inline-block;
+	border-radius: 20px 20px 0px 0px;
+	font-size: 24px;
+	width: 15%;
+	height:13px;
+	margin: 40px 0px 0px 0px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
 }
 .sub:hover {
 	animation-name: hoverdiv;
-    animation-duration: 0.1s;
-    height: 27px;
-    margin-top: 26px;
-    font-size: 30px;
+	animation-duration: 0.1s;
+	height: 27px;
+	margin-top: 26px;
+	font-size: 30px;
 }
 @keyframes hoverdiv {
 	0%{font-size: 24px;}
-   100%{height: 27px; margin-top: 26px; font-size: 30px;} 
+   	100%{height: 27px; margin-top: 26px; font-size: 30px;} 
 }
 a {
-  text-decoration: none;
-  color: black;
+  	text-decoration: none;
+  	color: black;
 }
 a:visited {
-  color: black;
-  text-decoratoin: none;
+  	color: black;
+  	text-decoratoin: none;
 }
 .parent {
 	text-align: left;
-    margin-left: 40px;
+    	margin-left: 40px;
 }
