@@ -1,18 +1,9 @@
 @font-face {
-  font-family: 'remingtonedType';
-  src: url(Remingtoned Type.ttf) format('ttf');
+  font-family: PerfectDOSVGA;
+  src: url(Perfect DOS VGA 437.ttf);
 }
-@font-face {
-  font-family: 'redwater';
-  src: url(RedwaterBanker_PERSONAL_USE.otf) format('otf');
-}
-@font-face {
-  font-family: 'tox';
-  src: url(Tox Typewriter.ttf);
-}
-
 * {
-  font-family: redwater;
+  font-family: PerfectDOSVGA;
 }
 body {
   background-color: black;
