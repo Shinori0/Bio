@@ -1,9 +1,9 @@
 @font-face {
-  font-family: PerfectDOSVGA;
-  src: url(Perfect DOS VGA 437.ttf);
+  font-family: arcade;
+  src: url(ARCADECLASSIC.TTF);
 }
 * {
-  font-family: PerfectDOSVGA;
+  font-family: arcade;
 }
 body {
   background-color: black;
