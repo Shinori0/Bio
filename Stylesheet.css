@@ -2,8 +2,12 @@
   font-family: arcade;
   src: url(ARCADECLASSIC.TTF);
 }
+@font-face {
+	font-family: punkbabe;
+	src: url(PUNKBABE TRIAL.ttf);
+}
 * {
-  font-family: arcade;
+  font-family: punkbabe;
 }
 body {
   background-color: black;
