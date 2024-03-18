@@ -12,9 +12,9 @@ body {
   background-size: 60px 60px;
 }
 .block1 {
-  border-radius: 20px;
-  margin: 40px;
-  padding: 20px;
+  border-radius: 0px 20px 20px 20px;
+  margin: 0px 40px 0px 40px;
+  padding: 25px;
   background-color: #DFDBD5;
   filter: drop-shadow(20px 15px black);
 }
@@ -49,6 +49,21 @@ body {
 .sub {
   border-radius: 20px 20px 0px 0px;
   font-size: 24px;
+  width: 15%;
+  height:13px;
+  margin-top: 40px;
+  text-align: center;
+}
+.sub:hover {
+	animation-name: hoverdiv;
+    animation-duration: 0.1s;
+    height: 20px;
+    margin-top: 33px;
+    font-size: 30px;
+}
+@keyframes hoverdiv {
+	0%{font-size: 24px;}
+   100%{height: 20px; margin-top: 33px; font-size: 30px;} 
 }
 a {
   text-decoration: none;
@@ -58,5 +73,3 @@ a:visited {
   color: black;
   text-decoratoin: none;
 }
-
-
