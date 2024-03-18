@@ -52,7 +52,21 @@ body {
   83% {transform: scale(1.2);}
   100% {transform: scale(1.2);}
 }
-
 .tad {
   padding: 20px 40px;
 }
+.sub {
+  background-color:#DFDBD5;
+  border-radius: 20px 20px 0px 0px;
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+  text-decoratoin: none;
+}
+
+
