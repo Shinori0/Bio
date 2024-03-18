@@ -46,24 +46,27 @@ body {
 .tad {
   padding: 20px 40px;
 }
+
 .sub {
   border-radius: 20px 20px 0px 0px;
   font-size: 24px;
   width: 15%;
   height:13px;
-  margin-top: 40px;
+  margin: 40px 0px 0px 0px;
   text-align: center;
+  vertical-align: middle;
+  display: inline-block;
 }
 .sub:hover {
 	animation-name: hoverdiv;
     animation-duration: 0.1s;
-    height: 20px;
-    margin-top: 33px;
+    height: 27px;
+    margin-top: 26px;
     font-size: 30px;
 }
 @keyframes hoverdiv {
 	0%{font-size: 24px;}
-   100%{height: 20px; margin-top: 33px; font-size: 30px;} 
+   100%{height: 27px; margin-top: 26px; font-size: 30px;} 
 }
 a {
   text-decoration: none;
@@ -72,4 +75,8 @@ a {
 a:visited {
   color: black;
   text-decoratoin: none;
+}
+.parent {
+	text-align: left;
+    margin-left: 40px;
 }
